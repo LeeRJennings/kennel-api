@@ -2,7 +2,9 @@
     "animals": [
         { "id": 1, "name": "Doodles", "breed": "Poodle"},
         { "id": 2, "name": "Parsley", "breed": "Great Dane" },
-        { "id": 3, "name": "Esme", "breed": "Pitbull" }
+        { "id": 3, "name": "Esme", "breed": "Pitbull" },
+        { "id": 4, "name": "Lucy", "breed": "Beagle" },
+        { "id": 5, "name": "Davos", "breed": "Grey Tabby Cat" }
     ],
     "customers": [
         {
@@ -10,10 +12,20 @@
             "name": "Luke Skywalker",
             "address": "976 Tatooine Dr."
         },
-         {
+        {
             "id": 2,
             "name": "Padmé Amidala",
             "address": "1211 Naboo Lane"
+        },
+        {
+            "id": 3,
+            "name": "Ubbe Ragnarson",
+            "address": "64 Valhalla Way"
+        },
+        {
+            "id": 4,
+            "name": "Brian Fantana",
+            "address": "23 San Diago Blvd"
         }
     ],
     "employees": [],
