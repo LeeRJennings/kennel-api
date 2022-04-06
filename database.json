@@ -1,44 +1,89 @@
 {
-    "animals": [
-        { "id": 1, "name": "Doodles", "breed": "Poodle", "customerId": 1},
-        { "id": 2, "name": "Parsley", "breed": "Great Dane", "customerId": 1},
-        { "id": 3, "name": "Esme", "breed": "Pitbull", "customerId": 2 },
-        { "id": 4, "name": "Lucy", "breed": "Beagle", "customerId": 3 },
-        { "id": 5, "name": "Davos", "breed": "Grey Tabby Cat", "customerId": 4 }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Luke Skywalker",
-            "address": "976 Tatooine Dr."
-        },
-        {
-            "id": 2,
-            "name": "Padmé Amidala",
-            "address": "1211 Naboo Lane"
-        },
-        {
-            "id": 3,
-            "name": "Ubbe Ragnarson",
-            "address": "64 Valhalla Way"
-        },
-        {
-            "id": 4,
-            "name": "Brian Fantana",
-            "address": "23 San Diago Blvd"
-        }
-    ],
-    "employees": [],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Parsley",
+      "breed": "Great Dane",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Esme",
+      "breed": "Pitbull",
+      "customerId": 2,
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "name": "Lucy",
+      "breed": "Beagle",
+      "customerId": 3,
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "name": "Davos",
+      "breed": "Grey Tabby Cat",
+      "customerId": 4,
+      "locationId": 1
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Luke Skywalker",
+      "address": "976 Tatooine Dr.",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Padmé Amidala",
+      "address": "1211 Naboo Lane",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Ubbe Ragnarson",
+      "address": "64 Valhalla Way",
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Brian Fantana",
+      "address": "23 San Diago Blvd",
+      "locationId": 1
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Geralt of Rivia",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Vesemir",
+      "locationId": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    }
+  ]
 }
